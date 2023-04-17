@@ -1,0 +1,6 @@
+applications:
+- name: api-node-btp
+  routes:
+    - route: api-node-btp.cfapps.us10-001.hana.ondemand.com
+  memory: 512M
+  buildpack: nodejs_buildpack
